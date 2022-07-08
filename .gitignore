@@ -1,0 +1,7 @@
+# IDEs
+.idea
+
+# WordPress
+wp-config.php
+
+docroot/wp-content/plugins/wp-test/vendor

@@ -1,0 +1,17 @@
+{
+    "name": "tmendes/wp-test",
+    "autoload": {
+        "psr-4": {
+            "WpTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TTavare4",
+            "email": "TTavare4@its.jnj.com"
+        }
+    ],
+    "require": {
+        "wordplate/acf": "^11.2"
+    }
+}
