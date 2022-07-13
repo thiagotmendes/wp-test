@@ -24,7 +24,11 @@
      */
     public function getApiData()
     {
-      return $this->ApiCall->getApiParam();
+      if( $this->ApiCall->getApiParam() ) {
+        $array = (array) $this->ApiCall->getApiParam();
+        
+        return (array) $array['hits'];
+      }
     }
   
   }

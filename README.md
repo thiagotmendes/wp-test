@@ -1,28 +1,24 @@
-# Docksal Powered WordPress Installation
+# WP-test This is a simple Gutenberg block creation,  that simulates a real project workflow with WordPress.
 
-Features:
+used on this test:
 
-- Vanilla WordPress 5
+ACF-PRO plugin
+wordplate/acf: extended acf dependency
+composer: management of PHP dependencies
 
-## Setup instructions
+### Structure of code test:
 
-1. Clone this repo into your Projects directory
+wp-test: plugin to create a new Gutenberg block.
 
-    ```
-    git clone https://github.com/docksal/boilerplate-wordpress.git wordpress
-    cd wordpress
-    ```
 
-1. Initialize the site
+## install
 
-    This will initialize local settings and install the site via `wp-cli`
+This repository uses docksall to create the environment.
 
-    ```
-    fin init
-    ```
+to install:
 
-1. Point your browser to
+git clone https://github.com/thiagotmendes/wp-test wp-test
+cd wp-test
+fin init
 
-    ```
-    http://wordpress.docksal
-    ```
+access the address gived on final of the proccess

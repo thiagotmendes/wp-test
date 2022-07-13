@@ -40,6 +40,7 @@ class WpApiController {
     if(!empty($this->filterApiFields())) {
       $param .= "&sourceFields=" . $this->filterApiFields();
     }
+    
     $this->param = $action . $param;
   }
   

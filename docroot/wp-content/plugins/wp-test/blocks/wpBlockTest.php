@@ -10,9 +10,9 @@
   } else {
     /** @var  $resortSearch */
     $resortSearch = get_field('search_field');
-    $test = new WpApiDataController($resortSearch);
+    $apiCallback = new WpApiDataController($resortSearch);
 
     echo "<pre>";
-    var_dump($test->getApiData());
+    var_dump($apiCallback->getApiData());
     echo "</pre>";
   }

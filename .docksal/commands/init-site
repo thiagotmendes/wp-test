@@ -57,6 +57,19 @@ site_install ()
 		--admin_email=${WP_ADMIN_EMAIL}
 }
 
+plugin_config()
+{
+  cd $DOCROOT_PATH . "wp-content/plugins/wp-test/"
+  composer install
+}
+
+plugin_active()
+{
+  cd $DOCROOT_PATH
+  fin wp plugin activate advanced-custom-fields-pro
+  fin wp plugin activate wp-test
+}
+
 #-------------------------- END: Functions --------------------------------
 
 #-------------------------- Execution --------------------------------
