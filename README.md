@@ -1,6 +1,6 @@
-# WP-test This 
+# WP-test 
 
-is a simple Gutenberg block creation,  that simulates a real project workflow with WordPress.
+This is a simple Gutenberg block creation,  that simulates a real project workflow with WordPress.
 
 used on this test:
 
