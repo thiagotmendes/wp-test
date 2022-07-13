@@ -20,7 +20,9 @@ This repository uses docksall to create the environment.
 to install:
 
 git clone https://github.com/thiagotmendes/wp-test wp-test
+
 cd wp-test
+
 fin init
 
 access the address gived on final of the proccess
